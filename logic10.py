@@ -6,6 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a%2==0 
+    return a>9 and a<100 
 print(main(3))
 print(main(12))
