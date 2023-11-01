@@ -6,6 +6,6 @@ def main(a):
     Returns:
         bool:  
     """
-    return  a>9 and a<100 and a%10==a//10
+    return  a%10==a//10
 print(main(32))
 print(main(22)) 
